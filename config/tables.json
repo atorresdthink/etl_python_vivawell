@@ -1,0 +1,18 @@
+[
+  {
+    "source_name": "csv",
+    "source_folder": "C:\\s3corevivawell",
+    "source_file": "Reporte_TotalAfiliados_*.csv",
+    "latest_file_only": true,
+    "delimiter": ",",
+    "encoding": "utf-8-sig",
+    "columns": null,
+    "rename_columns": {"email": "email_registro"},
+    "target_table": "filecore_total_afiliados",
+    "target_schema": "raw",
+    "all_string": true,
+    "chunk_size": 10000,
+    "tags": ["dim","corevivawell"],
+    "enabled": true
+  }
+]
