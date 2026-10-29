@@ -8,7 +8,7 @@
     "encoding": "utf-8-sig",
     "columns": null,
     "rename_columns": {"email": "email_registro"},
-    "target_table": "filecore_total_afiliados",
+    "target_table": "file_core_total_afiliados",
     "target_schema": "raw",
     "all_string": true,
     "chunk_size": 10000,
